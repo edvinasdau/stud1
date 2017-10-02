@@ -1,0 +1,59 @@
+.h {
+	background-color: grey;
+	height: 200px;
+	padding: 30px;
+}
+
+h1 {
+
+	color: white;
+	font-size: 300%;
+
+}
+
+.vel{
+	margin: right 50px;
+	height: 150px;
+	width: 300px;
+	position: absolute;
+	right: 50px;
+	top: 50px;
+}
+
+.y {
+	background-color: yellow;
+	height: 33%;
+}
+
+.g {
+	background-color: green;
+	height: 33%;
+}
+
+.r {
+	background-color: red;
+	height: 33%;
+}
+
+body {
+	background-image: url("images/Lietuva.jpg");
+	background-size: cover;
+}
+.p {
+	float: left;
+	width: 70%;
+	padding: top 50px;
+	
+}
+
+
+.foto {
+	position: absolute;
+	right: 50px;
+	margin: 50px;
+	clear: both;
+}
+
+.visas {
+	padding-left: 200px;
+}
