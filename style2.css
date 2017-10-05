@@ -1,0 +1,83 @@
+.h {
+	background-color: orange;
+	animation-name: example;
+    animation-duration: 3s;
+    animation-iteration-count: 3;
+    padding: 50px;
+    text-align: center;
+}
+
+
+h1 {
+	width: 50%;
+	color: white;
+	font-size: 300%;
+}
+
+.vel{
+	padding: 20px;
+	height: 150px;
+	width: 300px;
+
+}
+
+.y {
+	background-color: yellow;
+	height: 33%;
+}
+
+.g {
+	background-color: green;
+	height: 33%;
+}
+
+.r {
+	background-color: red;
+	height: 33%;
+}
+
+body {
+	background-image: url("images/Lietuva.jpg");
+	background-size: cover;
+}
+
+.a {
+	float: right;
+}
+
+.tekstas { 
+	font-size: 150%;
+ }
+
+ li {
+ 	font-size: 150%;
+ }
+
+.visas {
+	
+	background-color: rgba(25, 25, 25, 0.3);
+}
+
+.vln1{
+	height: 200px;
+}
+
+.vln2{	
+	height: 200px;
+}
+
+
+
+
+ 	@keyframes example {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+}
+.va {
+    animation-name: example;
+    animation-duration: 4s;
+}
+
+@media screen and (max-width: 480px) {

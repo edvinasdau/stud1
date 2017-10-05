@@ -2,22 +2,25 @@
 	background-color: grey;
 	height: 200px;
 	padding: 30px;
+	animation-name: example;
+    animation-duration: 4s;
 }
 
-h1 {
 
+h1 {
+	float: left;
 	color: white;
 	font-size: 300%;
 
 }
 
 .vel{
-	margin: right 50px;
+	margin-top: 20px;
+	float: right;
+	margin-right: 50px;
 	height: 150px;
 	width: 300px;
-	position: absolute;
-	right: 50px;
-	top: 50px;
+
 }
 
 .y {
@@ -39,21 +42,121 @@ body {
 	background-image: url("images/Lietuva.jpg");
 	background-size: cover;
 }
-.p {
+
+
+.miestai {
+	padding-top: 100px;
 	float: left;
-	width: 70%;
-	padding: top 50px;
-	
 }
 
-
-.foto {
-	position: absolute;
-	right: 50px;
-	margin: 50px;
-	clear: both;
+.stat{
+	padding-top: 100px;
+	float: right;
 }
 
 .visas {
-	padding-left: 200px;
+	width: 80%;
+	margin: auto;
+	background-color: rgba(25, 25, 25, 0.3);
+}
+
+.vln1{
+	height: 200px;
+	width: auto;
+}
+
+.vln2{
+	margin-left: 200px;
+	height: 200px;
+	width: auto;
+}
+
+.pic{
+	clear:both;
+}
+
+#miestas {
+	padding-top: 80px;
+}
+
+ 	@keyframes example {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+}
+.va {
+    animation-name: example;
+    animation-duration: 4s;
+}
+
+@media screen and (max-width: 480px) {
+	.h {
+		background-color: grey;
+	}
+
+	h1 {
+		color: white;
+
+	}
+
+	.vel{
+	height: 150px;
+	width: 300px;
+	margin-top: 200px;
+	}
+
+	.y {
+		background-color: yellow;
+		height: 33%;
+	}
+
+	.g {
+		background-color: green;
+		height: 33%;
+	}
+
+	.r {
+		background-color: red;
+		height: 33%;
+	}
+
+	body {
+		background-image: url("images/Lietuva.jpg");
+		background-size: cover;
+	}
+	.p {
+		width: 80%;
+		margin: auto;
+	}
+
+	.miestai {
+		float: left;
+		font-size: 200%;
+	}
+
+	.stat{
+		margin-left:1200px ;
+		font-size: 200%;
+	}
+
+	.visas {
+		width: 100%;
+
+		background-color: rgba(25, 25, 25, 0.3);
+	}
+
+	.vln1{
+		padding: 50px;
+		margin-left: 50px;
+		width: auto;
+		float: left;
+	}
+
+	.vln2{
+		margin-left: 500px;
+		width: auto;
+		float: left;
+	}
+
 }
