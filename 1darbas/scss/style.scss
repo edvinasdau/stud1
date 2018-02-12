@@ -1,0 +1,41 @@
+$karamele:  #efc050;
+
+#h {
+  font-size: 150%;
+  color: blue;
+  text-align: center;
+  font-family: 'Modak', cursive;
+}
+
+p {
+  text-align: center;
+  color: orange;
+  font-family: sans-serif;
+  font-size: 200%;
+  font-weight: bold;
+}
+
+canvas {
+	background-color: $karamele;
+	width: 100%;
+  	height: auto;
+}
+
+div	{
+	width: 100%;
+  	height: auto;	
+}
+
+input{
+	width: 100%;
+  	height: auto;
+}
+
+.a {
+	background-color: aqua;
+}
+
+h1 {
+	text-align: center;
+	background-color: green;
+}

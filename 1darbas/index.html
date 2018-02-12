@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Darbas</title>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+	<link rel="stylesheet" href="fnt/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Modak" rel="stylesheet">
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="row">
+			 <div class="col"><h1>Kontrolinis darbas</h1></div>
+		</div><hr>
+	</div>
+	<div class="container">	
+		<div class="row">
+			<div class="col-sm-8" id="h">
+				<h2 id="a"><i class="fa fa-hand-peace-o" aria-hidden="true"></i> Kvadratas <i class="fa fa-hand-peace-o" aria-hidden="true"></i></h2>
+
+				<canvas id="canvas"></canvas>
+			</div>
+			<div class="col-sm-4 a"><p>Įveskite kvadrato parametrus<p><br>
+				<input type="text" name="x" value="Plotis" id="x"><br><br>
+				<input type="text" name="y" value="Aukštis" id="y"><br><br>
+				<button onclick="piesk()" class="btn btn-danger">Piešti</button>
+			</div>	
+		</div>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
